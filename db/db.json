@@ -83,14 +83,14 @@
   ],
   "burgers": [
     {
-      "name": "Misael",
-      "meat": "Alcatra",
-      "bread": "Italiano Branco",
+      "name": "Misael Valentim",
+      "meat": "Maminha",
+      "bread": "3 Queijos",
       "opcionais": [
-        "Tomate"
+        "Cheddar",
+        "Cebola roxa"
       ],
-      "id": 1,
-      "status": "Solicitado"
+      "id": 2
     }
   ]
 }
