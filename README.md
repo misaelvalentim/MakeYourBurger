@@ -15,5 +15,10 @@ npm run serve
 npm run build
 ```
 
+### Command to run Fake API
+```
+npm run backend
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
