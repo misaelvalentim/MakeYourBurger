@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "backend": "json-server --watch db/db.json"
+    "backend": "json-server --watch db/db.json",
+    "dev": "concurrently --kill-others \"npm run serve\" \"npm run backend\""
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -17,6 +18,7 @@
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/compiler-sfc": "^3.0.0",
+    "concurrently": "^7.2.2"
   }
 }
